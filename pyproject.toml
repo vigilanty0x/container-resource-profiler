@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "container-resource-profiler"
 version = "0.1.0"
-description = "Validate reproducible CPU, memory, I/O, network, and startup measurements."
+description = "Normalize bounded caller-supplied container resource measurements."
 readme = "README.md"
 requires-python = ">=3.11"
 license = {text = "Apache-2.0"}
@@ -19,4 +19,3 @@ package-dir = {"" = "src"}
 
 [tool.setuptools.packages.find]
 where = ["src"]
-
